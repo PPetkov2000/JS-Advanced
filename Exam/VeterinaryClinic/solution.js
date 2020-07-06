@@ -55,22 +55,11 @@ class VeterinaryClinic {
   }
 
   toString() {
-    let percentage = 0;
-    let sum = 0;
-
-    const m = this.clients.map((c) =>
-      c.pets.filter((p) => p.procedures.length > 0)
+    const percentage = Math.floor(
+      this.clients
+        .map((c) => c.pets.filter((p) => p.procedures.length > 0))
+        .reduce((acc, curr) => acc + curr.length, 0) * this.capacity
     );
-
-    m.forEach((n) => (sum += n.length));
-
-    this.clients.forEach((c) => {
-      c.pets.forEach((p) => {
-        if (p.procedures.length > 0) {
-          percentage = Math.floor(sum * this.capacity);
-        }
-      });
-    });
 
     let output = `${
       this.clinicName
@@ -96,16 +85,3 @@ class VeterinaryClinic {
     return output.trim();
   }
 }
-
-let clinic = new VeterinaryClinic("SoftCare", 10);
-console.log(
-  clinic.newCustomer("Jim Jones", "Tom", "Cat", ["A154B", "2C32B", "12CDB"])
-);
-console.log(
-  clinic.newCustomer("Anna Morgan", "Max", "Dog", ["SK456", "DFG45", "KS456"])
-);
-console.log(clinic.newCustomer("Jim Jones", "Tiny", "Cat", ["A154B"]));
-console.log(clinic.onLeaving("Jim Jones", "Tiny"));
-console.log(clinic.toString());
-clinic.newCustomer("Jim Jones", "Sara", "Dog", ["A154B"]);
-console.log(clinic.toString());
