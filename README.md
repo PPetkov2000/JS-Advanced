@@ -1,4 +1,4 @@
-## JS-Advanced
+![JS-Applications](https://github.com/PPetkov2000/JS-Advanced/blob/master/JSAdvanced.jpg)
 
 ## Теми
 
