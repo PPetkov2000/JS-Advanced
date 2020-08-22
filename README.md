@@ -22,4 +22,4 @@
 
 ## Сертификат
 
-![alt text](https://github.com/PPetkov2000/JS-Applications/blob/master/js-advanced-certificate.jpg)
+![alt text](https://github.com/PPetkov2000/JS-Advanced/blob/master/js-advanced-certificate.jpg)
