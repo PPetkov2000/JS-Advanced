@@ -19,3 +19,7 @@
 - Извличане на информация и манипулация на DOM дървото
 - Обектно-ориентирано и функционално програмиране
 - Прототипно наследяване
+
+## Сертификат
+
+![alt text](https://github.com/PPetkov2000/JS-Applications/blob/master/js-advanced-certificate.jpg)
