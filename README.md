@@ -1,5 +1,9 @@
 ![JS-Applications](https://github.com/PPetkov2000/JS-Advanced/blob/master/JSAdvanced.jpg)
 
+## Сертификат
+
+![alt text](https://github.com/PPetkov2000/JS-Advanced/blob/master/JS%20Advanced%20-%20May%202020%20-%20Certificate.jpeg)
+
 ## Теми
 
 - Syntax, Functions and Statements
@@ -19,7 +23,3 @@
 - Извличане на информация и манипулация на DOM дървото
 - Обектно-ориентирано и функционално програмиране
 - Прототипно наследяване
-
-## Сертификат
-
-![alt text](https://github.com/PPetkov2000/JS-Advanced/blob/master/JS%20Advanced%20-%20May%202020%20-%20Certificate.jpeg)
