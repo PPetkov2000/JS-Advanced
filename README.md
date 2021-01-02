@@ -2,7 +2,7 @@
 
 ## Сертификат
 
-<div class="d-flex justify-content-center">
+<div class="d-flex flex-justify-content-center">
   <img src="https://github.com/PPetkov2000/JS-Advanced/blob/master/JS%20Advanced%20-%20May%202020%20-%20Certificate.jpeg" width="450" height="1000">
 </div>
 
