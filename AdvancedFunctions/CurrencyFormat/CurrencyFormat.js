@@ -19,8 +19,6 @@ console.log(dollarFormatter(5345)); // $ 5345,00
 console.log(dollarFormatter(3.1429)); // $ 3,14
 console.log(dollarFormatter(2.709)); // $ 2,71
 
-// For some reason Judge gives 0/100 even though the results are correct
-
 // Solution 2
 // function currencyFormatter(separator, symbol, symbolFirst, value) {
 //   let result = Math.trunc(value) + separator;
