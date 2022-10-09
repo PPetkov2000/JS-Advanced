@@ -27,5 +27,3 @@ console.log(
     console.log("Hello world!");
   })
 );
-
-// For some reason Judge gives 0/100 even though the results are correct
